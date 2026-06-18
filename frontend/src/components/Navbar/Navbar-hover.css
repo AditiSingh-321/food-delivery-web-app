@@ -1,0 +1,27 @@
+/* Append to existing CSS */
+.navbar-profile {
+   position: relative;
+   cursor: pointer;
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.nav-profile-dropdown {
+   display: none !important;
+}
+
+.navbar-profile:hover .nav-profile-dropdown {
+   display: flex !important;
+}
+
+.nav-profile-dropdown li {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   cursor: pointer;
+}
+
+.nav-profile-dropdown li:hover p {
+   color: tomato;
+}
