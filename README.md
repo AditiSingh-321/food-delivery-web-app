@@ -41,20 +41,5 @@ A full-stack, production-ready food delivery application built with the MERN sta
 * **Authentication:** JSON Web Tokens (JWT), bcryptjs
 * **Image Hosting:** Cloudinary
 
-## 🚀 Deployment Setup
 
-Since this project is organized in a single repository (monorepo), here is how to deploy it:
 
-### Frontend (Vercel)
-1. Import this repository into [Vercel](https://vercel.com/).
-2. In the "Root Directory" settings, click Edit and select the `frontend` folder.
-3. Add the required Environment Variable: `VITE_API_URL` pointing to your deployed backend URL (with `/api/v1` appended).
-4. Deploy!
-
-### Backend (Render)
-1. Create a New Web Service on [Render](https://render.com/) and connect this repository.
-2. In the setup settings, scroll to "Root Directory" and type `backend`.
-3. Build Command: `npm install`
-4. Start Command: `node src/server.js` (or `npm start`)
-5. Add all your backend Environment Variables (`MONGODB_URI`, `CLIENT_URL`, etc.).
-6. Deploy!
